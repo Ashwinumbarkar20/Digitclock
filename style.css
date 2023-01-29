@@ -1,0 +1,56 @@
+body{
+margin:0;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+justify-content: center;
+background: url("/pexels-jv-buenconcejo-2719301.jpg");
+font-family: 'Courier New', Courier, monospace;
+background-size: cover;
+}
+
+h3{
+letter-spacing: 4px;
+text-transform: uppercase;
+font-size: 25px;
+text-align: center;
+color: white;
+}
+.clock{
+    display: flex;
+    
+}
+.clock div{
+    position: relative;
+    margin:5px ;
+    text-transform: uppercase;
+   
+}
+.clock span{
+bottom: 5px;
+padding: 5px;
+width:100px;
+height: 80px;
+background-color:#243A73;
+opacity: 0.8;
+color: #F2EBE9;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+
+}
+#text{
+    height:30px;
+    font-size: 20px; 
+    background-color: #7C3E66;
+}
+.clock #ampm{
+    position:absolute;;
+    top: 20px;
+    background:linear-gradient(to bottom, #243a73, #443a73, #5b3b70, #6d3c6c, #7c3e66);
+    
+    
+   
+}
