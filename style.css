@@ -49,8 +49,6 @@ font-size: 50px;
 .clock #ampm{
     position:absolute;;
     top: 20px;
-    background:linear-gradient(to bottom, #243a73, #443a73, #5b3b70, #6d3c6c, #7c3e66);
-    
-    
+   
    
 }
